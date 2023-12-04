@@ -52,11 +52,13 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>3.2.0</version>
+				<!-- ... outras configurações ... -->
 				<configuration>
 					<excludes>
 						<exclude>
-							<groupId>org.projectlombok</groupId>
-							<artifactId><lomb></lomb>ok</artifactId>
+							<groupId>com.example</groupId>
+							<artifactId>excluded-artifact</artifactId>
 						</exclude>
 					</excludes>
 				</configuration>
